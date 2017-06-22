@@ -8,7 +8,7 @@ miImage.onclick = function() {
     if(miSrc === 'images/firefox-icon.png') {
       miImage.setAttribute ('src','images/attack.png');
     } else {
-      miImage.setAttribute ('src','images/firefox-icon.png');
+      miImage.setAttribute ('src','images/aa.png');
     }
 }
 
@@ -28,7 +28,7 @@ if(!localStorage.getItem('nombre')) {
 }
 else {
     var storedName = localStorage.getItem('nombre');
-    miTitulo.innerHTML = 'Mozilla is cool, ' + storedName;
+    miTitulo.innerHTML = 'Bienvenido, ' + storedName;
 }  
 
 miBoton.onclick = function() {
